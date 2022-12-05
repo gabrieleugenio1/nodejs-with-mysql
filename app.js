@@ -12,8 +12,8 @@ const PORT = process.env.PORT || 3000;
 
 // Manipular o home utilizando get
 app.get('/', (req, res) => {
-res.send('Aplicação node está em execução na porta '+ PORT);
-res.end();
+    res.send('Aplicação node está em execução na porta '+ PORT);
+    res.end();
 });
 
 //Metodo para selecionar todos  
